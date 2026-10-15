@@ -752,8 +752,7 @@
         playerVars: {
           'playsinline': 1,
           'controls': 0,
-          'start': 52,
-          'end': 112
+          'start': 60
         }
       });
     }
@@ -780,7 +779,7 @@
 
         if (player && typeof player.playVideo === 'function') {
           if (playing) {
-            player.seekTo(52);
+            player.seekTo(60);
             player.playVideo();
           } else {
             player.pauseVideo();
